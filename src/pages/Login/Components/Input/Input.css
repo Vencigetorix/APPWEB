@@ -1,0 +1,45 @@
+.input-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regular-style{
+    width: 100%;
+    height: 35px;
+    border: none;
+    padding: 0 10px 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: cadetblue;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    outline: none;
+}
+
+.regular-style::placeholder{
+    font-size: 15px;
+    color: gray;
+    opacity: 0.8;
+}
+
+
+.input-error{
+    width: 100%;
+    height: 35px;
+
+    border: 1px solid red;
+    color: red;
+    background: rgba(255, 175, 175, 0.3);
+
+    padding: 0 10px 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-error::placeholder{
+    color: red;
+    font-size: 15px;
+}
