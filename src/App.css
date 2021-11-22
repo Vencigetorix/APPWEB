@@ -1,0 +1,224 @@
+.header{
+    align-items: center;
+    background: rgba(72, 78, 97, 1);
+    height: 12vh;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+      /* background: rgba(#111, 0.9); */
+}
+nav ul {
+    float: right;
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+}
+nav li {
+    float: left;
+}
+nav a {
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0 0 20px;
+    display: block;
+    /* color: darken(#fff, 7%); */
+}
+  
+.logo {
+    height: 75px;
+    float: left;
+}
+
+body{
+background-image: url('./Assets/img1.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+.logout{
+    margin-right: -2%;
+    background-color: rgba(255, 255, 255, 0);
+    background-color: #f7f5f6;
+    -webkit-mask: url("./Assets/logout.svg") no-repeat center;
+    mask: url('./Assets/logout.svg') no-repeat center;
+    color: #f7f5f6;
+}
+
+.logo{
+    margin-right: -2%;
+    background-color: rgba(255, 255, 255, 0);
+    background-color: #f7f5f6;
+    -webkit-mask: url("./Assets/book.svg") no-repeat center;
+    mask: url('./Assets/book.svg') no-repeat center;
+    color: #f7f5f6;
+
+}
+
+.home-container{
+    font-family:'Open Sans';
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #f7f5f6;
+}
+
+.home-container h1{
+    font-size: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content{
+    width: 50%;
+    height: 60%;
+    font-size: 20px;
+    background: rgba(72, 78, 97, 0.6);
+    display:flex;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.home-content button{
+    border: 100px;
+    border-radius: 5px;
+    margin: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+.login-container {
+    font-family:'Open Sans';
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #f7f5f6;
+    background-image: url('./Assets/img1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-content{
+    width: 50%;
+    height: 60%;
+    font-size: 20px;
+    background: rgba(72, 78, 97, 0.6);
+    display:flex;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.login-content input{
+    background-color: rgba(72, 78, 97, 0.6);
+    color:#f7f5f6;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.login-content label{
+    color:#f7f5f6;
+    font-size: 18px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.submit-button-container{
+    margin-top: 50px;
+}
+
+.submit-button-container button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 0%;
+    color:  #f7f5f6;
+    background-color: rgba(72, 78, 97, 0.6);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.alert-gray{
+    color: #f7f5f6;
+}
+
+
+.label-alert{
+    justify-content: center;
+    font-size: 14px;
+    color: red;
+}
+
+.login-content h1{
+    font-size: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regular-style{
+    width: 100%;
+    height: 35px;
+    border: none;
+    padding: 0 10px 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: cadetblue;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    outline: none;
+}
+
+.regular-style::placeholder{
+    font-size: 15px;
+    color: gray;
+    opacity: 0.8;
+}
+
+
+.input-error{
+    width: 100%;
+    height: 35px;
+
+    border: 1px solid red;
+    color: red;
+    background: rgba(255, 175, 175, 0.3);
+
+    padding: 0 10px 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-error::placeholder{
+    color: red;
+    font-size: 15px;
+}
